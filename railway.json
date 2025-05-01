@@ -1,9 +1,11 @@
 {
   "build": {
-    "builder": "NIXPACKS",
-    "nixpacksConfig": {
-      "workdir": "backend"
-    }
+    "command": "npm install --prefix backend",
+    "start": "npm start --prefix backend"
+  },
+  "deploy": {
+    "directory": "backend"
   }
 }
+
 
